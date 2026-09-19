@@ -16,6 +16,8 @@ dependencies = [
     "pandas",
     "numpy",
     "matplotlib",
+    "jupyter>=1.1.1",
+    "ipykernel>=7.3.0",
 ]
 
 [tool.uv.sources]
