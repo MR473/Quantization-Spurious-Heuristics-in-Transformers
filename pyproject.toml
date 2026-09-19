@@ -1,14 +1,29 @@
 [project]
 name = "quantization-spurious-heuristics-in-transformers"
 version = "0.1.0"
-description = "Add your description here"
+description = "Investigating quantization and spurious linguistic heuristics in Transformers"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.12,<3.13"
 
-[project.scripts]
-quantization-spurious-heuristics-in-transformers = "quantization_spurious_heuristics_in_transformers:main"
+dependencies = [
+    "torch",
+    "transformers",
+    "datasets",
+    "accelerate",
+    "evaluate",
+    "scikit-learn",
+    "scipy",
+    "pandas",
+    "numpy",
+    "matplotlib",
+]
 
-[build-system]
-requires = ["uv_build>=0.12.7,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu130", marker = "sys_platform == 'linux'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
