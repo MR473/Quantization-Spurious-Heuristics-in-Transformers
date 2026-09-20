@@ -1,0 +1,9 @@
+{
+    "model": "google-bert/bert-base-uncased",
+    "seed": 123,
+    "max_length": 128,
+    "learning_rate": 2e-05,
+    "batch_size": 32,
+    "num_epochs": 3,
+    "peak_gpu_memory_gb": 3.768901824951172
+}

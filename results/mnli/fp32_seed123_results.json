@@ -1,0 +1,10 @@
+{
+    "matched": {
+        "mnli_matched_loss": 0.48885679244995117,
+        "mnli_matched_accuracy": 0.8483953132959755
+    },
+    "mismatched": {
+        "mnli_mismatched_loss": 0.4655799865722656,
+        "mnli_mismatched_accuracy": 0.8493694060211554
+    }
+}
