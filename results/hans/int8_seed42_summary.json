@@ -1,0 +1,29 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "seed": 42,
+  "precision": "dynamic_int8",
+  "dataset": "HANS",
+  "num_examples": 30000,
+  "overall_accuracy": 0.5892666666666667,
+  "by_label": {
+    "entailment": 0.9813333333333333,
+    "non-entailment": 0.1972
+  },
+  "by_heuristic": {
+    "constituent": 0.566,
+    "lexical_overlap": 0.6715,
+    "subsequence": 0.5303
+  },
+  "by_heuristic_and_label": {
+    "entailment": {
+      "constituent": 0.9952,
+      "lexical_overlap": 0.954,
+      "subsequence": 0.9948
+    },
+    "non-entailment": {
+      "constituent": 0.1368,
+      "lexical_overlap": 0.389,
+      "subsequence": 0.0658
+    }
+  }
+}
