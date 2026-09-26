@@ -1,0 +1,7 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "seed": 42,
+  "precision": "dynamic_int8",
+  "matched_accuracy": 0.8477840040753948,
+  "mismatched_accuracy": 0.8484540276647681
+}
