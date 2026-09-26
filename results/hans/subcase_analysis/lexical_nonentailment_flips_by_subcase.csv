@@ -1,0 +1,16 @@
+seed,subcase,harmful_flips,beneficial_flips,net_flips
+42,ln_conjunction,38,5,33
+42,ln_passive,2,0,2
+42,ln_preposition,61,4,57
+42,ln_relative_clause,51,6,45
+42,ln_subject/object_swap,64,6,58
+123,ln_conjunction,62,5,57
+123,ln_passive,8,0,8
+123,ln_preposition,61,3,58
+123,ln_relative_clause,77,1,76
+123,ln_subject/object_swap,95,0,95
+456,ln_conjunction,62,8,54
+456,ln_passive,0,0,0
+456,ln_preposition,60,8,52
+456,ln_relative_clause,31,2,29
+456,ln_subject/object_swap,24,0,24

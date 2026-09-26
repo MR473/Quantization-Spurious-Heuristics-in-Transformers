@@ -1,0 +1,16 @@
+seed,subcase,mean_entailment_probability_shift
+42,ln_conjunction,3.06
+42,ln_passive,1.01
+42,ln_preposition,3.82
+42,ln_relative_clause,2.97
+42,ln_subject/object_swap,5.38
+123,ln_conjunction,3.85
+123,ln_passive,1.71
+123,ln_preposition,4.92
+123,ln_relative_clause,5.25
+123,ln_subject/object_swap,6.61
+456,ln_conjunction,3.63
+456,ln_passive,0.26
+456,ln_preposition,3.68
+456,ln_relative_clause,2.84
+456,ln_subject/object_swap,2.77
