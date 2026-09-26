@@ -1,0 +1,8 @@
+metric,FP32,INT8,unit,comparison
+1. Serialized model-state size,417.72538471221924,173.48004627227783,MiB,58.47% reduction
+2. Registered tensor memory,417.6582145690918,417.6582145690918,MiB,0.00% reduction
+3. Peak inference memory (device allocator peak),475.5244140625,240.24951171875,MiB,49.48% reduction
+4. Median batch latency,12.59612149442546,94.36464300233638,ms/batch,0.133x speedup
+5. Throughput,2269.511142641406,333.8249779382482,examples/s,-85.29% change
+6. Peak process runtime memory,1812.7109375,2254.671875,MiB,-24.38% reduction
+7. Full HANS inference time,13.21870575399953,89.86745145700115,seconds,0.147x speedup

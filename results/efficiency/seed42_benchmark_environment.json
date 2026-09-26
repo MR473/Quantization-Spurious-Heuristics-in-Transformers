@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "platform": "Linux-7.1.5-76070105-generic-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "torch_version": "2.14.0+cu130",
+  "device": "cuda",
+  "cuda_available": true,
+  "cuda_version": "13.0",
+  "batch_size": 32,
+  "max_length": 128,
+  "warmup_batches": 20,
+  "gpu_name": "NVIDIA GeForce RTX 5080 Laptop GPU"
+}

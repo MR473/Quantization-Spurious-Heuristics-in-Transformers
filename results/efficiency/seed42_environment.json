@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "model_path": "../models/fp32/seed42/final",
+  "device": "cuda",
+  "platform": "Linux-7.1.5-76070105-generic-x86_64-with-glibc2.39",
+  "torch_version": "2.14.0+cu130",
+  "torchao_version": "0.18.0",
+  "cuda_version": "13.0",
+  "batch_size": 32,
+  "max_length": 128,
+  "warmup_batches": 20,
+  "num_hans_examples": 30000,
+  "runtime_quantization_setup_seconds": 0.3855041640053969,
+  "gpu_name": "NVIDIA GeForce RTX 5080 Laptop GPU"
+}
