@@ -1,0 +1,9 @@
+# Your existing torch==2.14.0+cu130 + torchao==0.18.0 environment is the baseline.
+# DO NOT use this file to replace/reinstall torch or torchao.
+# Only install missing libraries in the SAME kernel environment.
+transformers
+pandas
+numpy
+psutil
+matplotlib
+nbformat

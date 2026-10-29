@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "variant": "int8_eager",
+  "device": "cuda",
+  "torch": "2.14.0+cu130",
+  "torchao": "0.18.0",
+  "cuda": "13.0",
+  "gpu_name": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "model_path": "/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed42/final",
+  "hans_source": "/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/results/hans/fp32_seed42_predictions.csv",
+  "max_length": 128,
+  "throughput_batch_size": 32,
+  "benchmark_repeats": 3,
+  "compile_mode": null,
+  "compile_dynamic": null,
+  "method": "Dynamic W8A8 TorchAO PTQ",
+  "examples": 30000,
+  "partial_batch_policy": "repeat within incomplete batch; discard duplicated logits; retain all original examples"
+}

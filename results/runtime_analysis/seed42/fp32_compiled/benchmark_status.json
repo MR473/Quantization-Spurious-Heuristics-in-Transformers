@@ -1,0 +1,5 @@
+{
+  "status": "success",
+  "seed": 42,
+  "variant": "fp32_compiled"
+}

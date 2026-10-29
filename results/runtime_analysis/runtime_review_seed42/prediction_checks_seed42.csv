@@ -1,0 +1,6 @@
+reference_variant,candidate_variant,examples,mnli_3way_disagreement_n,hans_binary_disagreement_n,hans_binary_disagreement_percent,probability_mae,probability_p99_abs_difference,all_probabilities_within_tolerance,exact_label_agreement
+original_fp32,fp32_eager,30000,0,0,0.0,1.5597478455553358e-07,1.940000000005826e-06,True,True
+original_int8,int8_eager,30000,383,375,1.25,0.00823499273551977,0.10023169872976093,False,False
+fp32_eager,fp32_compiled,30000,0,0,0.0,8.648884733334472e-08,1.070000000047422e-06,True,True
+int8_eager,int8_compiled_fp32_head,30000,367,356,1.1866666666666665,0.008105661974609222,0.09965206889999971,False,False
+original_int8,int8_compiled_fp32_head,30000,376,369,1.23,0.008189727792800893,0.09923461574721978,False,False

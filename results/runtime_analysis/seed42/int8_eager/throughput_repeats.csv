@@ -1,0 +1,4 @@
+seed,variant,repeat,batch_size,examples,seconds,padded_duplicate_examples,physical_examples_processed,throughput_examples_per_second,pre_inference_cuda_allocated_mib,peak_inference_cuda_allocated_mib,peak_extra_cuda_allocated_mib,pre_inference_cuda_reserved_mib,peak_inference_cuda_reserved_mib,process_rss_before_mib,process_rss_after_mib
+42,int8_eager,1,32,30000,54.18899623000107,16,30016,553.6179314462162,174.4599609375,208.24951171875,33.78955078125,184.0,244.0,1717.0390625,1752.25390625
+42,int8_eager,2,32,30000,53.368041121000715,16,30016,562.1341793674113,174.4599609375,208.24951171875,33.78955078125,244.0,244.0,1752.25390625,1752.39453125
+42,int8_eager,3,32,30000,53.11843304699869,16,30016,564.775696102637,174.4599609375,208.24951171875,33.78955078125,244.0,244.0,1752.39453125,1752.39453125

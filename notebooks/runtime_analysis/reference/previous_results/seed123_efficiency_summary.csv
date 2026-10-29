@@ -1,0 +1,8 @@
+seed,device,metric,FP32,INT8,unit,comparison,benchmark_repeats,model_path
+123,cuda,1. Serialized model-state size,417.72538471221924,173.48004627227783,MiB,58.47% reduction,3,/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed123/final
+123,cuda,2. Registered tensor memory,417.6582145690918,417.6582145690918,MiB,diagnostic only — packed TorchAO storage not measured,3,/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed123/final
+123,cuda,3. Peak inference memory (device allocator peak),475.5244140625,240.24951171875,MiB,confounded by co-resident models (diagnostic only),3,/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed123/final
+123,cuda,4. Median batch latency,10.106193500178051,54.99301149939129,ms/batch,0.184x speedup,3,/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed123/final
+123,cuda,5. Throughput,2953.3824592055166,572.9869653004214,examples/s,-80.60% change,3,/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed123/final
+123,cuda,6. Peak process runtime memory,2328.7734375,2327.1484375,MiB,not isolated — diagnostic only,3,/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed123/final
+123,cuda,7. Full HANS inference time,10.15784457799964,52.35721197299972,seconds,0.194x speedup,3,/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/models/fp32/seed123/final

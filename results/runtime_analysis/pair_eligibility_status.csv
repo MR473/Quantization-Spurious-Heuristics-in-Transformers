@@ -1,0 +1,4 @@
+seed,mode,fp32_variant,int8_variant,eligible,reason
+42,eager_original_int8,fp32_eager,int8_eager,True,
+42,compiled_original_int8,fp32_compiled,int8_compiled,False,Missing one or both successful benchmark variants
+42,compiled_fp32_head_int8,fp32_compiled,int8_compiled_fp32_head,True,

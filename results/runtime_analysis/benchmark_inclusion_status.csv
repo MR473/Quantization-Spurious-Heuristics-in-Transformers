@@ -1,0 +1,5 @@
+folder,status,reason
+/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/results/runtime_analysis/seed42/fp32_compiled,included,
+/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/results/runtime_analysis/seed42/fp32_eager,included,
+/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/results/runtime_analysis/seed42/int8_compiled_fp32_head,included,
+/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/results/runtime_analysis/seed42/int8_eager,included,

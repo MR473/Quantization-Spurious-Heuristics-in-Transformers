@@ -1,0 +1,5 @@
+{
+  "status": "success",
+  "seed": 42,
+  "variant": "int8_eager"
+}

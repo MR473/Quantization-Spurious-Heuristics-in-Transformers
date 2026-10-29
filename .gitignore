@@ -1,3 +1,4 @@
 models/
 .DS_Store
-*.zip
+*.zipresults/runtime_analysis/**/profiler_chrome_trace.json
+results/runtime_analysis/**/profiler_chrome_trace.json

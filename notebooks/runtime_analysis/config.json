@@ -1,0 +1,20 @@
+{
+  "seeds": [42, 123, 456],
+  "model_dir_template": "models/fp32/seed{seed}/final",
+  "results_dir": "results/runtime_analysis",
+  "hans_predictions_template": "results/hans/fp32_seed{seed}_predictions.csv",
+  "reference_int8_predictions_template": "results/hans/int8_seed{seed}_predictions.csv",
+  "hans_tsv_url": "https://raw.githubusercontent.com/tommccoy1/hans/master/heuristics_evaluation_set.txt",
+  "device": "cuda",
+  "max_length": 128,
+  "batch_sizes": [32],
+  "throughput_batch_size": 32,
+  "benchmark_repeats": 3,
+  "warmup_batches": 20,
+  "latency_batches_per_size": 100,
+  "max_examples": null,
+  "compile_mode": "max-autotune-no-cudagraphs",
+  "compile_dynamic": true,
+  "profiling_batches": 8,
+  "prediction_probability_tolerance": 0.001
+}
