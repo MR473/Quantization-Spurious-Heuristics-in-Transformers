@@ -1,0 +1,3 @@
+seed,variant,execution,device,n_hans_examples,batch_size,repeats,serialized_state_mib,resident_cuda_mib,peak_cuda_mib,throughput_examples_per_sec,full_hans_sec,batch32_forward_latency_ms,model_precision
+42,fp32_eager,eager,cuda,30000,32,3,417.725384712,418.738769531,475.524414062,2990.77072618,10.030859182,10.2778565015,FP32
+42,int8_eager,eager,cuda,30000,32,3,173.480046272,174.459960938,208.249511719,562.134179367,53.368041121,58.7113309994,Dynamic INT8 W8A8

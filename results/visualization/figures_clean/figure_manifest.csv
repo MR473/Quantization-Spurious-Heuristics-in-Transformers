@@ -1,0 +1,9 @@
+figure,description,png,svg
+01_average_accuracy,Mean FP32/INT8 accuracy for MNLI/HANS and corresponding mean delta with observed seed range.,01_average_accuracy.png,01_average_accuracy.svg
+02_hans_impact_heatmap,Six HANS heuristic-label groups; color and number show INT8−FP32 mean accuracy difference in percentage points.,02_hans_impact_heatmap.png,02_hans_impact_heatmap.svg
+03_subgroup_seed_variability,Three-seed means with observed minimum and maximum across seeds (not confidence intervals).,03_subgroup_seed_variability.png,03_subgroup_seed_variability.svg
+04_average_prediction_flips,"Correct-to-wrong versus wrong-to-correct HANS transitions, averaged across seeds, per 5,000-example subgroup.",04_average_prediction_flips.png,04_average_prediction_flips.svg
+05_most_affected_subcases,"Twelve largest mean HANS subcase accuracy drops, with observed seed ranges. All 30 subcases remain in the source CSV.",05_most_affected_subcases.png,05_most_affected_subcases.svg
+06_entailment_probability_shifts,"Categorical probability-shift intervals with mean harmful/beneficial flips per seed; example shares are averaged across three 5,000-example evaluations.",06_entailment_probability_shifts.png,06_entailment_probability_shifts.svg
+07_probability_accuracy_relationship,Group mean entailment probability shift vs group mean accuracy shift. Marker size denotes mean flips per seed; correlation is descriptive.,07_probability_accuracy_relationship.png,07_probability_accuracy_relationship.svg
+08_cuda_efficiency_seed42,"CUDA eager benchmark, seed 42 only (not averaged across seeds or CPU performance).",08_cuda_efficiency_seed42.png,08_cuda_efficiency_seed42.svg

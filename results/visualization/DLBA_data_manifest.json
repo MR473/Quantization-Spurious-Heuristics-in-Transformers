@@ -1,0 +1,18 @@
+{
+  "source_archive": "results(1).zip",
+  "original_project": "Quantization-Spurious-Heuristics-in-Transformers",
+  "created_from_only_uploaded_files": true,
+  "model": "BERT-base-uncased fine-tuned on MNLI",
+  "quantization": "TorchAO Int8DynamicActivationInt8WeightConfig",
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "main_evaluation": "HANS: 30000 pairs x 3 seeds, three heuristic families, entailment vs non-entailment",
+  "runtime_scope": "CUDA eager only, seed 42, repeated timing and memory measurements",
+  "primary_model_comparison_caveat": "Saved FP32 HANS predictions generated on GPU, adopted INT8 HANS predictions generated on CPU; no CPU FP32 control run.",
+  "statistics_caveat": "McNemar q-values are Benjamini-Hochberg adjusted across 18 seed x heuristic x gold-label tests; paired bootstrap CIs are unadjusted. Seed-level result is n=3 independent training runs.",
+  "no_unitless_accuracy_percentages": "All columns ending _pct contain values on 0-100 scale. All changes ending _pp are signed percentage points, not fractions.",
+  "repeated_grain_note": "Master includes repeated seed- and group-level fields on multiple subcase rows; never SUM these fields without deduplicating."
+}
