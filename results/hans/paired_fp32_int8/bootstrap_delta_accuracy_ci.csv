@@ -1,0 +1,22 @@
+delta_accuracy,ci95_low,ci95_high,seed,group,n
+-0.008133333333333333,-0.009566666666666666,-0.006666666666666667,42,overall,30000
+0.0026,0.001,0.0044,42,constituent | entailment,5000
+-0.0084,-0.0128,-0.0042,42,constituent | non-entailment,5000
+0.0068,0.0038,0.0098,42,lexical_overlap | entailment,5000
+-0.0358,-0.042,-0.0298,42,lexical_overlap | non-entailment,5000
+0.001,0.0,0.0022,42,subsequence | entailment,5000
+-0.015,-0.0188,-0.0114,42,subsequence | non-entailment,5000
+-0.012433333333333333,-0.013933333333333334,-0.010933333333333333,123,overall,30000
+0.0002,-0.0006,0.001,123,constituent | entailment,5000
+-0.0106,-0.0144,-0.007,123,constituent | non-entailment,5000
+0.0052,0.003,0.0074,123,lexical_overlap | entailment,5000
+-0.0586,-0.0656,-0.052,123,lexical_overlap | non-entailment,5000
+0.0014,0.0004,0.0026,123,subsequence | entailment,5000
+-0.0122,-0.0154,-0.0092,123,subsequence | non-entailment,5000
+-0.0054,-0.006633333333333333,-0.004166666666666667,456,overall,30000
+-0.0002,-0.0006,0.0,456,constituent | entailment,5000
+-0.0026,-0.0058,0.0006,456,constituent | non-entailment,5000
+0.003,0.0006,0.0054,456,lexical_overlap | entailment,5000
+-0.0318,-0.0372,-0.0266,456,lexical_overlap | non-entailment,5000
+0.0016,0.0006,0.0028,456,subsequence | entailment,5000
+-0.0024,-0.0048,0.0,456,subsequence | non-entailment,5000

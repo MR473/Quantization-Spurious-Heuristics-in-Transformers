@@ -1,6 +1,0 @@
-comparison,n_examples,mnli_3way_changes,hans_binary_changes,hans_binary_change_pct,probability_MAE,probability_p99_abs_difference,flipped_fraction_reference_margin_below_0_1
-original_int8_cpu_reference vs int8_cpu_reproduced,30000,369,364,1.2133333333333334,0.008083295890252338,0.09762364745140023,0.6639566395663956
-original_int8_cpu_reference vs int8_eager_cuda_saved,30000,383,375,1.25,0.008234992735519768,0.10023169872976093,0.6553524804177546
-int8_eager_cuda_saved vs int8_eager_cuda_fp32_head_new,30000,6,5,0.016666666666666666,0.00013498272943973536,0.0012097557448287669,1.0
-int8_eager_cuda_fp32_head_new vs int8_compiled_fp32_head_saved,30000,361,351,1.17,0.008102911127964149,0.09977320260152435,0.6648199445983379
-original_int8_cpu_reference vs int8_compiled_fp32_head_saved,30000,376,369,1.23,0.008189727792800893,0.09923461574721978,0.6861702127659575

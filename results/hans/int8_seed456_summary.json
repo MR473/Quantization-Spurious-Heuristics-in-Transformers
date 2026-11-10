@@ -4,26 +4,26 @@
   "precision": "dynamic_int8",
   "dataset": "HANS",
   "num_examples": 30000,
-  "overall_accuracy": 0.5327666666666667,
+  "overall_accuracy": 0.5330666666666667,
   "by_label": {
-    "entailment": 0.9915333333333334,
-    "non-entailment": 0.074
+    "entailment": 0.9914,
+    "non-entailment": 0.07473333333333333
   },
   "by_heuristic": {
-    "constituent": 0.5215,
-    "lexical_overlap": 0.5677,
-    "subsequence": 0.5091
+    "constituent": 0.522,
+    "lexical_overlap": 0.5678,
+    "subsequence": 0.5094
   },
   "by_heuristic_and_label": {
     "entailment": {
-      "constituent": 0.9996,
-      "lexical_overlap": 0.9774,
-      "subsequence": 0.9976
+      "constituent": 0.9992,
+      "lexical_overlap": 0.9776,
+      "subsequence": 0.9974
     },
     "non-entailment": {
-      "constituent": 0.0434,
+      "constituent": 0.0448,
       "lexical_overlap": 0.158,
-      "subsequence": 0.0206
+      "subsequence": 0.0214
     }
   }
 }

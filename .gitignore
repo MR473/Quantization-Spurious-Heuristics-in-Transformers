@@ -1,4 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Local trained models
 models/
-.DS_Store
-*.zipresults/runtime_analysis/**/profiler_chrome_trace.json
+
+# Archives
+*.zip
+
+# Large profiling artifacts
 results/runtime_analysis/**/profiler_chrome_trace.json
+
+# Local files
+.DS_Store

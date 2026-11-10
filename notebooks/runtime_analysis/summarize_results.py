@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Consolidate runtime-analysis benchmark CSVs and fair FP32/INT8 pairs.
 
-Allows original eager and new compiled FP32-head INT8 comparisons while
+Allows matched FP32 versus dynamic INT8 eager comparisons while
 explicitly detecting protocol mismatches and failed/stale experiment status.
 Never reruns or modifies any checkpoint or benchmark.
 """
@@ -29,11 +29,8 @@ METRICS = [
 ]
 
 PAIRS = [
-    ("eager_original_int8", "fp32_eager", "int8_eager", "Original W8A8 dynamic INT8 versus FP32; same eager execution"),
-    ("compiled_original_int8", "fp32_compiled", "int8_compiled", "Original W8A8 dynamic INT8 versus FP32; same compiled execution"),
-    ("compiled_fp32_head_int8", "fp32_compiled", "int8_compiled_fp32_head", "Modified W8A8 (FP32 classifier) versus FP32; same compiled execution"),
+    ("eager_original_int8", "fp32_eager", "int8_eager", "Original dynamic W8A8 INT8 versus FP32; same CUDA eager execution"),
 ]
-
 
 def safe_float(value):
     try:
@@ -176,7 +173,7 @@ def main():
     print(f"Saved: {output / 'all_benchmark_variants.csv'}")
     print(f"Saved: {output / 'benchmark_inclusion_status.csv'}")
     print(f"Saved: {output / 'pair_eligibility_status.csv'}")
-    print("NOTE: FP32-head INT8 is a DISTINCT quantization variant; check 04 prediction equivalence before relating to original HANS behavioral results.")
+    print("NOTE: GPU eager benchmarks are separate from the primary CPU HANS behavioral comparison.")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compare HANS predictions by pairID, including the compiled INT8 FP32-head variant.
+"""Compare HANS predictions by pairID for eager variants.
 
 Reads prediction CSVs only: never retrains, edits checkpoints or overwrites inputs.
 Writes comparison summaries and mismatch examples under results/runtime_analysis/.
@@ -98,17 +98,13 @@ def compare(seed, label, baseline_variant, candidate_variant, ref_path, new_path
 
 
 def get_checks(cfg, root, seed):
+    """Compare only original CPU references with eager CUDA inference."""
     directory = root / f"seed{seed}"
     output = lambda variant: directory / variant / "predictions.csv"
     return [
         ("Original FP32 reference vs FP32 eager CUDA", "original_fp32", "fp32_eager", reference_csv(cfg, seed, "fp32"), output("fp32_eager")),
         ("Original INT8 reference vs INT8 eager CUDA", "original_int8", "int8_eager", reference_csv(cfg, seed, "int8"), output("int8_eager")),
-        ("FP32 compiled vs FP32 eager CUDA", "fp32_eager", "fp32_compiled", output("fp32_eager"), output("fp32_compiled")),
-        ("Original INT8 compiled vs INT8 eager CUDA", "int8_eager", "int8_compiled", output("int8_eager"), output("int8_compiled")),
-        ("INT8 compiled FP32 head vs INT8 eager CUDA", "int8_eager", "int8_compiled_fp32_head", output("int8_eager"), output("int8_compiled_fp32_head")),
-        ("INT8 compiled FP32 head vs original INT8 reference", "original_int8", "int8_compiled_fp32_head", reference_csv(cfg, seed, "int8"), output("int8_compiled_fp32_head")),
     ]
-
 
 
 def generated_prediction_issue(path: Path, root: Path, cfg: dict) -> str | None:
@@ -134,8 +130,6 @@ def generated_prediction_issue(path: Path, root: Path, cfg: dict) -> str | None:
         return "Prediction max_length differs from current configuration"
     if int(metadata.get("throughput_batch_size", -1)) != int(cfg["throughput_batch_size"]):
         return "Prediction batch size differs from current configuration"
-    if "compiled" in path.parent.name and metadata.get("compile_mode") != cfg.get("compile_mode"):
-        return "Prediction compilation mode differs from current configuration"
     return None
 
 def main():
@@ -196,7 +190,7 @@ def main():
             report.unlink()  # avoid reporting stale equivalence conclusions
         print("No valid comparisons available; check prediction_equivalence_status.csv")
     print(f"Saved comparison availability: {status_file}")
-    print("A compiled FP32-head INT8 prediction match must be measured; do not assume equality from architecture alone.")
+    print("Eager CUDA predictions must be compared to the CPU reference; do not presume numerical identity.")
 
 
 if __name__ == "__main__":
