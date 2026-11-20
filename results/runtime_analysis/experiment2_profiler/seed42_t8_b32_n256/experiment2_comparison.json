@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "threads": 8,
+  "batch_size": 32,
+  "num_examples": 256,
+  "rss_setup_delta_wo_minus_fp32_mib": 422.031,
+  "rss_after_trim_wo_minus_fp32_mib": 81.879,
+  "unprofiled_wo_over_fp32_speed_ratio": 1.0249,
+  "cpu_operator_top_fp32": "aten::addmm",
+  "cpu_operator_top_wo": "aten::mm",
+  "warning": "Profiler results are diagnostic; short-run throughput is not comparable with the 3-seed Experiment 1B benchmark. RSS is not model-only memory."
+}
