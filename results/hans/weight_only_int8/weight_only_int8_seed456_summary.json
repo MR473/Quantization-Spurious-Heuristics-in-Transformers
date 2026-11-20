@@ -1,0 +1,24 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "seed": 456,
+  "quantization": "int8_weight_only",
+  "device": "cpu",
+  "quantized_linear_layers": 74,
+  "num_examples": 30000,
+  "overall_accuracy": 0.5372333333333333,
+  "lexical_non_entailment_accuracy": 0.183,
+  "by_heuristic_and_label": {
+    "constituent": {
+      "entailment": 0.9996,
+      "non-entailment": 0.046
+    },
+    "lexical_overlap": {
+      "entailment": 0.9764,
+      "non-entailment": 0.183
+    },
+    "subsequence": {
+      "entailment": 0.996,
+      "non-entailment": 0.0224
+    }
+  }
+}

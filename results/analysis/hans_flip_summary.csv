@@ -1,0 +1,13 @@
+model,heuristic,gold_label,total_harmful,total_beneficial,mean_accuracy_change
+W8A8,constituent,entailment,6,19,0.0008666666666666666
+W8A8,constituent,non-entailment,193,85,-0.007200000000000001
+W8A8,lexical_overlap,entailment,26,101,0.005
+W8A8,lexical_overlap,non-entailment,686,55,-0.04206666666666667
+W8A8,subsequence,entailment,1,21,0.0013333333333333333
+W8A8,subsequence,non-entailment,171,23,-0.009866666666666668
+Weight-only,constituent,entailment,3,7,0.0002666666666666666
+Weight-only,constituent,non-entailment,44,26,-0.0012
+Weight-only,lexical_overlap,entailment,9,15,0.0004
+Weight-only,lexical_overlap,non-entailment,166,26,-0.009333333333333334
+Weight-only,subsequence,entailment,2,3,6.666666666666667e-05
+Weight-only,subsequence,non-entailment,45,10,-0.0023333333333333335
