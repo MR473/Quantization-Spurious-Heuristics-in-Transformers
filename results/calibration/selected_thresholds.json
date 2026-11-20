@@ -1,0 +1,17 @@
+{
+  "42": {
+    "threshold": 0.25,
+    "calibration_accuracy": 0.8527763627101376,
+    "original_argmax_accuracy": 0.8477840040753948
+  },
+  "123": {
+    "threshold": 0.35,
+    "calibration_accuracy": 0.8531839021905248,
+    "original_argmax_accuracy": 0.8507386653082017
+  },
+  "456": {
+    "threshold": 0.24,
+    "calibration_accuracy": 0.8489047376464595,
+    "original_argmax_accuracy": 0.84381049414162
+  }
+}

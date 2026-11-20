@@ -1,0 +1,10 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "seed": 123,
+  "quantization": "int8_weight_only",
+  "device": "cpu",
+  "split": "validation_mismatched",
+  "num_examples": 9832,
+  "quantized_linear_layers": 74,
+  "accuracy": 0.8506916192026037
+}

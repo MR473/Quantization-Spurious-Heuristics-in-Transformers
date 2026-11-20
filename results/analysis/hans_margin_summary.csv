@@ -1,0 +1,13 @@
+model,heuristic,gold_label,mean_shift,mean_positive_fraction
+W8A8,constituent,entailment,0.00021969141137813202,0.34913333333333335
+W8A8,constituent,non-entailment,0.006246404853700219,0.4592
+W8A8,lexical_overlap,entailment,0.011366761062050553,0.5788
+W8A8,lexical_overlap,non-entailment,0.06769899453774116,0.8231999999999999
+W8A8,subsequence,entailment,0.004032671016809592,0.416
+W8A8,subsequence,non-entailment,0.019216544063738353,0.5382
+Weight-only,constituent,entailment,9.61486993236071e-05,0.43673333333333336
+Weight-only,constituent,non-entailment,0.001779170795068636,0.5267333333333334
+Weight-only,lexical_overlap,entailment,0.0012401203046133796,0.5185333333333334
+Weight-only,lexical_overlap,non-entailment,0.015228182496094983,0.7509333333333332
+Weight-only,subsequence,entailment,0.00032359843438590444,0.47113333333333335
+Weight-only,subsequence,non-entailment,0.0046098362467793036,0.5391333333333334
