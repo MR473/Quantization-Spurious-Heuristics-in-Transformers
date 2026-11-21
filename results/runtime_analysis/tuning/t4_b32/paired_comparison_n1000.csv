@@ -1,0 +1,2 @@
+seed,num_examples,size_reduction_pct,cpu_process_rss_change_mib,latency_speedup_x_fp32_over_int8,throughput_speedup_x_int8_over_fp32,fp32_throughput_examples_sec,weight_only_throughput_examples_sec
+42,1000,58.47053068570764,422.0,1.0546517357120797,0.9190136903146013,76.542653,70.343746

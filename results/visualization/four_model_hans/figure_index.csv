@@ -1,0 +1,12 @@
+figure,png,svg,caption
+01_overall_hans_accuracy,01_overall_hans_accuracy.png,01_overall_hans_accuracy.svg,Overall HANS accuracy; mean ± 1 SD across three fine-tuning seeds.
+02_subgroup_accuracy_heatmap,02_subgroup_accuracy_heatmap.png,02_subgroup_accuracy_heatmap.svg,Six HANS subgroups; mean accuracy across seeds for all four models.
+03_subgroup_accuracy_change,03_subgroup_accuracy_change.png,03_subgroup_accuracy_change.svg,Per-subgroup mean accuracy change in percentage points vs seed-matched FP32.
+04_seed_consistency,04_seed_consistency.png,04_seed_consistency.svg,Overall and lexical non-entailment accuracy by seed.
+05_harmful_beneficial_flips,05_harmful_beneficial_flips.png,05_harmful_beneficial_flips.svg,Harmful/beneficial flips vs FP32 in all six subgroups; three seed-runs pooled.
+06_overall_flip_totals,06_overall_flip_totals.png,06_overall_flip_totals.svg,All-HANS harmful and beneficial flip counts pooled across three seeds.
+07_entailment_margin_shifts,07_entailment_margin_shifts.png,07_entailment_margin_shifts.svg,Mean change in entailment margin; negative/positive values retain their signs.
+08_positive_margin_fraction,08_positive_margin_fraction.png,08_positive_margin_fraction.svg,Across-seed mean percentage of subgroup examples with positive entailment-margin change.
+09_prediction_agreement,09_prediction_agreement.png,09_prediction_agreement.svg,"Three-class versus binary HANS agreement with FP32, averaged across seeds."
+10_harmful_flip_overlap,10_harmful_flip_overlap.png,10_harmful_flip_overlap.svg,Pairwise harmful-flip Jaccard overlap; diagonal excluded.
+11_cpu_speed_accuracy_tradeoff,11_cpu_speed_accuracy_tradeoff.png,11_cpu_speed_accuracy_tradeoff.svg,CPU-only comparison from Experiment 3 runtime benchmarks; all variants use seed-matched full HANS runs.

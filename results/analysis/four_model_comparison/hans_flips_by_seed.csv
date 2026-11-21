@@ -1,0 +1,64 @@
+seed,model,heuristic,gold_label,n,harmful,beneficial,net_accuracy_change
+42,W8A8,overall,all,30000,390,146,-0.008133333333333333
+42,W8A8,lexical_overlap,entailment,5000,11,45,0.0068
+42,W8A8,lexical_overlap,non-entailment,5000,211,32,-0.0358
+42,W8A8,subsequence,entailment,5000,1,6,0.001
+42,W8A8,subsequence,non-entailment,5000,83,8,-0.015
+42,W8A8,constituent,entailment,5000,3,16,0.0026
+42,W8A8,constituent,non-entailment,5000,81,39,-0.0084
+42,Weight-only,overall,all,30000,86,34,-0.0017333333333333333
+42,Weight-only,lexical_overlap,entailment,5000,4,4,0.0
+42,Weight-only,lexical_overlap,non-entailment,5000,45,14,-0.0062
+42,Weight-only,subsequence,entailment,5000,1,1,0.0
+42,Weight-only,subsequence,non-entailment,5000,14,4,-0.002
+42,Weight-only,constituent,entailment,5000,2,5,0.0006
+42,Weight-only,constituent,non-entailment,5000,20,6,-0.0028
+42,OpenVINO INT8,overall,all,30000,150,36,-0.0038
+42,OpenVINO INT8,lexical_overlap,entailment,5000,6,3,-0.0006
+42,OpenVINO INT8,lexical_overlap,non-entailment,5000,72,19,-0.0106
+42,OpenVINO INT8,subsequence,entailment,5000,2,2,0.0
+42,OpenVINO INT8,subsequence,non-entailment,5000,20,2,-0.0036
+42,OpenVINO INT8,constituent,entailment,5000,1,10,0.0018
+42,OpenVINO INT8,constituent,non-entailment,5000,49,0,-0.0098
+123,W8A8,overall,all,30000,447,74,-0.012433333333333333
+123,W8A8,lexical_overlap,entailment,5000,4,30,0.0052
+123,W8A8,lexical_overlap,non-entailment,5000,304,11,-0.0586
+123,W8A8,subsequence,entailment,5000,0,7,0.0014
+123,W8A8,subsequence,non-entailment,5000,65,4,-0.0122
+123,W8A8,constituent,entailment,5000,2,3,0.0002
+123,W8A8,constituent,non-entailment,5000,72,19,-0.0106
+123,Weight-only,overall,all,30000,120,27,-0.0031
+123,Weight-only,lexical_overlap,entailment,5000,4,1,-0.0006
+123,Weight-only,lexical_overlap,non-entailment,5000,81,6,-0.015
+123,Weight-only,subsequence,entailment,5000,1,1,0.0
+123,Weight-only,subsequence,non-entailment,5000,23,5,-0.0036
+123,Weight-only,constituent,entailment,5000,1,1,0.0
+123,Weight-only,constituent,non-entailment,5000,10,13,0.0006
+123,OpenVINO INT8,overall,all,30000,148,38,-0.0036666666666666666
+123,OpenVINO INT8,lexical_overlap,entailment,5000,1,7,0.0012
+123,OpenVINO INT8,lexical_overlap,non-entailment,5000,98,11,-0.0174
+123,OpenVINO INT8,subsequence,entailment,5000,1,0,-0.0002
+123,OpenVINO INT8,subsequence,non-entailment,5000,20,5,-0.003
+123,OpenVINO INT8,constituent,entailment,5000,2,2,0.0
+123,OpenVINO INT8,constituent,non-entailment,5000,26,13,-0.0026
+456,W8A8,overall,all,30000,246,84,-0.0054
+456,W8A8,lexical_overlap,entailment,5000,11,26,0.003
+456,W8A8,lexical_overlap,non-entailment,5000,171,12,-0.0318
+456,W8A8,subsequence,entailment,5000,0,8,0.0016
+456,W8A8,subsequence,non-entailment,5000,23,11,-0.0024
+456,W8A8,constituent,entailment,5000,1,0,-0.0002
+456,W8A8,constituent,non-entailment,5000,40,27,-0.0026
+456,Weight-only,overall,all,30000,63,26,-0.0012333333333333332
+456,Weight-only,lexical_overlap,entailment,5000,1,10,0.0018
+456,Weight-only,lexical_overlap,non-entailment,5000,40,6,-0.0068
+456,Weight-only,subsequence,entailment,5000,0,1,0.0002
+456,Weight-only,subsequence,non-entailment,5000,8,1,-0.0014
+456,Weight-only,constituent,entailment,5000,0,1,0.0002
+456,Weight-only,constituent,non-entailment,5000,14,7,-0.0014
+456,OpenVINO INT8,overall,all,30000,97,34,-0.0021
+456,OpenVINO INT8,lexical_overlap,entailment,5000,2,11,0.0018
+456,OpenVINO INT8,lexical_overlap,non-entailment,5000,63,6,-0.0114
+456,OpenVINO INT8,subsequence,entailment,5000,2,1,-0.0002
+456,OpenVINO INT8,subsequence,non-entailment,5000,8,4,-0.0008
+456,OpenVINO INT8,constituent,entailment,5000,0,1,0.0002
+456,OpenVINO INT8,constituent,non-entailment,5000,22,11,-0.0022
