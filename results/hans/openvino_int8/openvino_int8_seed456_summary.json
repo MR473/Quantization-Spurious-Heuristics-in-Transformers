@@ -1,0 +1,54 @@
+{
+  "experiment": "3C OpenVINO NNCF INT8_SYM per-example HANS evaluation",
+  "seed": 456,
+  "samples": 30000,
+  "checkpoint": "models/fp32/seed456/final",
+  "cached_model": "models/experiment3_openvino/seed456/int8_sym.xml",
+  "reference_predictions": "results/hans/fp32_seed456_predictions.csv",
+  "threads": 8,
+  "batch_size": 32,
+  "max_length": 128,
+  "accuracy": 0.5363666666666667,
+  "three_class_agreement_with_saved_fp32": 0.9956,
+  "by_heuristic_and_label": [
+    {
+      "heuristic": "constituent",
+      "gold_label": "entailment",
+      "n": 5000,
+      "accuracy": 0.9996
+    },
+    {
+      "heuristic": "constituent",
+      "gold_label": "non-entailment",
+      "n": 5000,
+      "accuracy": 0.0452
+    },
+    {
+      "heuristic": "lexical_overlap",
+      "gold_label": "entailment",
+      "n": 5000,
+      "accuracy": 0.9764
+    },
+    {
+      "heuristic": "lexical_overlap",
+      "gold_label": "non-entailment",
+      "n": 5000,
+      "accuracy": 0.1784
+    },
+    {
+      "heuristic": "subsequence",
+      "gold_label": "entailment",
+      "n": 5000,
+      "accuracy": 0.9956
+    },
+    {
+      "heuristic": "subsequence",
+      "gold_label": "non-entailment",
+      "n": 5000,
+      "accuracy": 0.023
+    }
+  ],
+  "int8_constant_nodes_at_export": 77,
+  "matched_benchmark": "/home/mohnishr/workspace/DLBA/Quantization-Spurious-Heuristics-in-Transformers/results/runtime_analysis/experiment3_openvino/seed456_t8_b32_n30000/openvino_int8_sym.json",
+  "note": "Weight-compressed OpenVINO inference; probabilities and 3-class predictions saved for paired flip/margin analysis"
+}

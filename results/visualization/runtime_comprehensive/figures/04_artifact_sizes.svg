@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="788.743764pt" height="405.505172pt" viewBox="0 0 788.743764 405.505172" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T22:35:18.471665</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 405.505172 
+L 788.743764 405.505172 
+L 788.743764 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 131.146719 332.689172 
+L 772.183764 332.689172 
+L 772.183764 50.957656 
+L 131.146719 50.957656 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 131.146719 332.689172 
+L 131.146719 50.957656 
+" clip-path="url(#p406adc3fef)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="131.146719" y="344.166711" transform="rotate(-0 131.146719 344.166711)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 255.619931 332.689172 
+L 255.619931 50.957656 
+" clip-path="url(#p406adc3fef)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="255.619931" y="344.166711" transform="rotate(-0 255.619931 344.166711)">100</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 380.093144 332.689172 
+L 380.093144 50.957656 
+" clip-path="url(#p406adc3fef)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="380.093144" y="344.166711" transform="rotate(-0 380.093144 344.166711)">200</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 504.566357 332.689172 
+L 504.566357 50.957656 
+" clip-path="url(#p406adc3fef)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="504.566357" y="344.166711" transform="rotate(-0 504.566357 344.166711)">300</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 629.03957 332.689172 
+L 629.03957 50.957656 
+" clip-path="url(#p406adc3fef)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="629.03957" y="344.166711" transform="rotate(-0 629.03957 344.166711)">400</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 753.512782 332.689172 
+L 753.512782 50.957656 
+" clip-path="url(#p406adc3fef)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="753.512782" y="344.166711" transform="rotate(-0 753.512782 344.166711)">500</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283d" x="451.665241" y="358.667531" transform="rotate(-0 451.665241 358.667531)">Saved model artifact / serialized state (MiB) ↓</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(45.815625 295.87079)">OpenVINO INT8</text>
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(16.56 308.473661)">(weight-compressed)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="127.646719" y="231.09036" transform="rotate(-0 127.646719 231.09036)">OpenVINO FP32</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(57.43125 154.758495)">TorchAO INT8</text>
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(57.857812 167.361366)">(weight-only)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="127.646719" y="89.978065" transform="rotate(-0 127.646719 89.978065)">PyTorch FP32</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.146719 319.883194 
+L 262.455926 319.883194 
+L 262.455926 275.432692 
+L 131.146719 275.432692 
+z
+" clip-path="url(#p406adc3fef)" style="fill: #10947e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 131.146719 249.326841 
+L 651.483598 249.326841 
+L 651.483598 204.876339 
+L 131.146719 204.876339 
+z
+" clip-path="url(#p406adc3fef)" style="fill: #8360b3"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 131.146719 178.770489 
+L 347.082464 178.770489 
+L 347.082464 134.319987 
+L 131.146719 134.319987 
+z
+" clip-path="url(#p406adc3fef)" style="fill: #db783a"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 131.146719 108.214136 
+L 651.104592 108.214136 
+L 651.104592 63.763634 
+L 131.146719 63.763634 
+z
+" clip-path="url(#p406adc3fef)" style="fill: #355c9a"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 131.146719 332.689172 
+L 131.146719 50.957656 
+" style="fill: none; stroke: #e8edf3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283d" x="271.169051" y="300.515794" transform="rotate(-0 271.169051 300.515794)">105.5 MiB</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283d" x="660.196723" y="229.959442" transform="rotate(-0 660.196723 229.959442)">418.0 MiB</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283d" x="355.795589" y="159.403089" transform="rotate(-0 355.795589 159.403089)">173.5 MiB</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283d" x="659.817717" y="88.846737" transform="rotate(-0 659.817717 88.846737)">417.7 MiB</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #627086" x="131.146719" y="41.704212" transform="rotate(-0 131.146719 41.704212)">PyTorch saved state vs OpenVINO IR artifacts · average sizes across 3 seeds</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283d" x="131.146719" y="27.957656" transform="rotate(-0 131.146719 27.957656)">Quantization substantially reduces storage</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #627086" x="21.475764" y="386.927203" transform="rotate(-0 21.475764 386.927203)">Storage formats differ between PyTorch and OpenVINO; these are on-disk artifacts, not RAM footprints.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p406adc3fef">
+   <rect x="131.146719" y="50.957656" width="641.037045" height="281.731516"/>
+  </clipPath>
+ </defs>
+</svg>

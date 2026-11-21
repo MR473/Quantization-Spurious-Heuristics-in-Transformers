@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="766.846332pt" height="392.041172pt" viewBox="0 0 766.846332 392.041172" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T22:35:20.529463</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 392.041172 
+L 766.846332 392.041172 
+L 766.846332 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 54.602695 309.69707 
+L 750.286332 309.69707 
+L 750.286332 50.957656 
+L 54.602695 50.957656 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="140.383877" y="321.17543" transform="rotate(-0 140.383877 321.17543)">PyTorch FP32</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(279.983234 322.226455)">TorchAO INT8</text>
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(280.196515 334.829326)">(weight-only)</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #627086" x="489.798059" y="321.174609" transform="rotate(-0 489.798059 321.174609)">OpenVINO FP32</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(623.589603 322.225635)">OpenVINO INT8</text>
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #627086" transform="translate(608.961791 334.828506)">(weight-compressed)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <path d="M 54.602695 309.69707 
+L 750.286332 309.69707 
+" clip-path="url(#pabddbaa1c4)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="51.102695" y="313.68584" transform="rotate(-0 51.102695 313.68584)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <path d="M 54.602695 259.939491 
+L 750.286332 259.939491 
+" clip-path="url(#pabddbaa1c4)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="51.102695" y="263.92826" transform="rotate(-0 51.102695 263.92826)">50</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <path d="M 54.602695 210.181911 
+L 750.286332 210.181911 
+" clip-path="url(#pabddbaa1c4)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_7">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="51.102695" y="214.170681" transform="rotate(-0 51.102695 214.170681)">100</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <path d="M 54.602695 160.424331 
+L 750.286332 160.424331 
+" clip-path="url(#pabddbaa1c4)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="51.102695" y="164.413101" transform="rotate(-0 51.102695 164.413101)">150</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <path d="M 54.602695 110.666752 
+L 750.286332 110.666752 
+" clip-path="url(#pabddbaa1c4)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="51.102695" y="114.655521" transform="rotate(-0 51.102695 114.655521)">200</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <path d="M 54.602695 60.909172 
+L 750.286332 60.909172 
+" clip-path="url(#pabddbaa1c4)" style="fill: none; stroke: #e8edf3; stroke-opacity: 0.95; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_10">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #627086" x="51.102695" y="64.897942" transform="rotate(-0 51.102695 64.897942)">250</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283d" x="24.538359" y="180.327363" transform="rotate(-90 24.538359 180.327363)">Mean of seed-level median batch latency (ms) ↓</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 54.602695 309.69707 
+L 750.286332 309.69707 
+" style="fill: none; stroke: #e8edf3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 86.224679 309.69707 
+L 194.543075 309.69707 
+L 194.543075 99.410225 
+L 86.224679 99.410225 
+z
+" clip-path="url(#pabddbaa1c4)" style="fill: #355c9a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 260.93177 309.69707 
+L 369.250166 309.69707 
+L 369.250166 99.538081 
+L 260.93177 99.538081 
+z
+" clip-path="url(#pabddbaa1c4)" style="fill: #db783a"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 435.638861 309.69707 
+L 543.957257 309.69707 
+L 543.957257 120.728563 
+L 435.638861 120.728563 
+z
+" clip-path="url(#pabddbaa1c4)" style="fill: #8360b3"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 610.345952 309.69707 
+L 718.664348 309.69707 
+L 718.664348 227.122751 
+L 610.345952 227.122751 
+z
+" clip-path="url(#pabddbaa1c4)" style="fill: #10947e"/>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283d" x="140.383877" y="94.434467" transform="rotate(-0 140.383877 94.434467)">211.3 ms</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283d" x="315.090968" y="94.562323" transform="rotate(-0 315.090968 94.562323)">211.2 ms</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283d" x="489.798059" y="115.752805" transform="rotate(-0 489.798059 115.752805)">189.9 ms</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283d" x="664.50515" y="222.146993" transform="rotate(-0 664.50515 222.146993)">83.0 ms</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #627086" x="54.602695" y="42.279015" transform="rotate(-0 54.602695 42.279015)">Batch size 32 · preprocessed input · includes only model execution, not tokenization</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283d" x="54.602695" y="27.957656" transform="rotate(-0 54.602695 27.957656)">Batch-forward latency falls with OpenVINO INT8</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #627086" x="20.746332" y="373.463203" transform="rotate(-0 20.746332 373.463203)">Median latency calculated per seed in Experiment 3, then averaged over 3 seeds.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pabddbaa1c4">
+   <rect x="54.602695" y="50.957656" width="695.683636" height="258.739414"/>
+  </clipPath>
+ </defs>
+</svg>

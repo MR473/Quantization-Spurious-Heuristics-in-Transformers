@@ -1,0 +1,16 @@
+{
+  "experiment": "3 OpenVINO backend vs TorchAO weight-only",
+  "seeds": [
+    456
+  ],
+  "hardware": "Linux-7.1.5-76070105-generic-x86_64-with-glibc2.39",
+  "inference_mode": "single-request synchronous, one stream per variant",
+  "limitations": [
+    "OpenVINO's NNCF INT8_SYM compression is not identical to TorchAO weight-only INT8.",
+    "OpenVINO's compiled inference uses a fixed CPU thread count and FP32 hint; compiler and kernel optimizations differ from PyTorch.",
+    "PyTorch .pt and OpenVINO IR artifacts have different serialization formats.",
+    "RSS is process-wide, not weights-only or peak inference memory.",
+    "Each model uses identical HANS inputs and batch size; tokenizer, loading, conversion, and compilation are excluded from throughput timing.",
+    "One seed and small subsets are exploratory; verify full 30000 examples across all seeds."
+  ]
+}

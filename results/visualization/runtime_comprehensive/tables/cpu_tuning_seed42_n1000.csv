@@ -1,0 +1,13 @@
+threads,batch,variant,examples_per_sec
+2,32,fp32,39.509839
+2,32,weight_only_int8,40.057425
+4,16,fp32,76.863855
+4,16,weight_only_int8,79.420937
+4,32,fp32,76.542653
+4,32,weight_only_int8,70.343746
+4,64,fp32,75.1253
+4,64,weight_only_int8,71.587562
+8,32,fp32,143.70415
+8,32,weight_only_int8,149.86467
+8,64,fp32,145.694897
+8,64,weight_only_int8,133.28989
